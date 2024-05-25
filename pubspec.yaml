@@ -1,0 +1,95 @@
+name: adbot
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+#from here to the end copy the code and replace it with your previous code (version 3.8.1)
+
+version: 4.1.0+41
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  flutter_screenutil: ^5.9.0
+  get: ^4.6.5
+  flutter_svg: 2.0.7
+  http: ^1.1.0
+  get_storage: 2.1.1
+  flutter_spinkit: 5.2.0
+  speech_to_text: 6.3.0
+  flutter_tts: ^3.8.1
+  firebase_auth: ^4.9.0
+  google_mobile_ads:
+  google_sign_in: ^6.1.5
+  the_apple_sign_in: ^1.1.1
+  saver_gallery: ^2.0.1
+  permission_handler: ^10.4.3
+  device_info_plus: ^9.0.3
+  share_plus: 7.1.0
+  cloud_firestore: ^4.9.1
+  flutter_inappwebview: ^5.7.2+3
+  http_auth: 1.0.3
+  flutter_stripe: ^9.3.0
+  firebase_messaging: ^14.6.7
+  flutter_local_notifications: ^15.1.1
+  firebase_storage: ^11.2.6
+  image_picker: ^1.0.4
+  flutter_sslcommerz: ^2.2.2-nullsafety.0
+  pay: ^1.1.2
+  unity_ads_plugin: ^0.3.8
+  animated_text_kit: ^4.2.2
+
+  font_awesome_flutter: ^10.5.0
+  flutter_paystack:
+    git:
+      url: https://github.com/appdevsx/flutter_paystack
+      ref: master
+  flutterwave_standard: 1.0.8
+  uuid: 
+  syncfusion_flutter_pdf:
+  syncfusion_flutter_pdfviewer: 22.2.11
+  path_provider: ^2.1.1
+#  hive: ^2.2.3
+  datetime_picker_formfield_new: ^2.1.0
+  intl: ^0.18.1
+  timezone:
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.3
+#  change_app_package_name: ^1.1.0
+#  flutter_app_name: ^0.1.1
+#  flutter_launcher_icons: ^0.13.1
+#
+#flutter_app_name:
+#  name: "AdBot"   # >> Set AppName First
+
+dependency_overrides:
+#  webview_flutter: ^4.2.4
+  http: 1.1.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/Logo/
+    - assets/apple_pay.json
+    - assets/google_pay.json
+    - assets/icon/
+    - assets/icon/cover_letter.svg
+    - assets/icon/diet_chart.svg
+
+#end version 3.7.2
